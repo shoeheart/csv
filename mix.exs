@@ -41,7 +41,7 @@ defmodule CSV.Mixfile do
 
   defp deps do
     [
-      {:parallel_stream, "~> 1.0.4"},
+      {:parallel_stream, git: "git@github.com:shoeheart/parallel_stream.git"},
       {:excoveralls, "~> 0.6", only: :test},
       {:benchfella, ">= 0.0.0", only: :bench},
       {:ex_csv, ">= 0.0.0", only: :bench},
